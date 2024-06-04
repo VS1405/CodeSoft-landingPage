@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("assest/camera1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(31, 27, 27);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.7rem 0;
+
+}
+
+.logo {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    padding-left: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.hero-section {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 50px;
+    /* background-color: blueviolet; */
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-content h1 {
+    font-size: 3em;
+    color: beige;
+    text-shadow: 5px 9px 5px gray;
+}
+.main-heading{
+    margin-bottom: -15px;
+}
+.hero-content p {
+    width: 70%;
+    font-size: 1.5em;
+    color: rgb(226, 214, 214);
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #ff9500;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: yellow;
+    color: black;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+
+
